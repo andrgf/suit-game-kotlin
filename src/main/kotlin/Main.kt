@@ -30,7 +30,7 @@ fun main() {
         } while (!posibleInput.contains(input))
 
 
-    } while (input == "tidak")
+    } while (input == "ya")
 
 }
 
