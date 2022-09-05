@@ -1,4 +1,4 @@
-class Suit(private val callResult: CallResult){
+class Controller(private val callResult: CallResult){
 
     open fun compare(data1 : String, data2 : String) {
         when(data1 + data2) {

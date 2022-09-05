@@ -11,7 +11,7 @@ fun main() {
         print("2. Masukkan pemain 2 : ")
         val input2 = getInputUser()
 
-        val controller = Suit(object : CallResult {
+        val controller = Controller(object : CallResult {
             override fun result(hasil: String) {
                 println(hasil)
             }
